@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+     /* <!-- here p{} is the element selector--> */
+        p{
+            color: blue;
+            background-color: brown;
+        }
+        /* this is id selector */
+           #idselector{
+            color: rgb(1, 1, 14);
+            background-color: rgb(216, 213, 213);
+
+    } 
+    /* this the class selector */
+    .classselector{
+        color: rgb(4, 4, 15);
+            background-color: rgb(151, 77, 139);
+
+    }
+     /* this the group selector where more then one class can be called  */
+    .groupselector,groupselector2{
+        color: rgb(4, 4, 15);
+            background-color: rgb(243, 230, 241);
+
+    }
+    </style> <!-- here p{} is the element selector-->
+    
+</head>
+<body>
+    <span style="color: aquamarine;">hello this is aquamarine color</span>
+    <P>THIS IS COMMING FROM INTERNAL CSS</P>
+    <div>THI IS COMMING FROM EXTERBAL CSS</div>
+    <p id="idselector">this is id selector and it is comming from #idselector</p>
+    <p class="classselector" >this is class selector it is comming from classselector from &lt;style&gt; tag  </p>
+    <h1  class="groupselector"> 'hello this groupselector'</h1>
+    <div class="groupselector2">THI IS COMMING FROM EXTERBAL CSS</div>
+</body>
+</html>
+<br><br>
+note :
+when to use id selector-- when u want to apply css on single element then id selector is useful<br>
+when to use class selector -- when u ant to apply some functionality to more then one element then class is used<br>
+simply mention class name in that element all the property of that class will be applied 

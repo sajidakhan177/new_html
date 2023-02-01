@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> <!-- here we are importing font from web and such steps are kwon as webfonts -->
+    <style>
+        p{
+            font-size:large;
+            font-style: italic;
+           
+
+        }
+        .webfont{
+            font-family: 'Ubuntu', sans-serif; /*  here it has taken two font one is  ubuntu second one is sans-serif here if one font is not 
+            working it will take another font family
+            this is called as font stack */
+           line-height: 8.3em;/*line height is the distance from one font to another*/
+        }
+        span{
+            font-weight: 100;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p>lets change the font </p>
+    <p class="webfont">
+        this font is imported from web &nbsp;<span> font weight</span>
+
+        <!-- output
+             lets change the font
+  
+                                              this gap is because of line-height
+
+        this font is imported from web -->
+    </p>
+</body>
+</html>

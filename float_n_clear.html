@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        box-sizing: border-box;
+       }
+       
+       .container{
+        width: 900px;
+        border:5px solid black;
+        margin:33px auto /*with the help of auto the content comes in center on web page and 33px will create a gap from top */
+       }
+       .item{
+            border:3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(250, 230, 245);
+        }
+        #fruit{
+           float:left; /* The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it */
+            width: 48%;
+            margin-right: 2px;
+        }
+        #computer{
+            float:left;
+            width: 48%;
+            margin-right: 2px;
+        }
+        #stationery{
+            clear:both; /* The clear CSS property
+             sets whether an element must be moved below (cleared) floating elements that precede it. 
+             The clear property applies to floating and non-floating elements.*/
+            /* float:left; */
+            width: 100%;
+            margin-right: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>fruit</h3>
+            <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus corporis, 
+                aliquam placeat aliquid quisquam maiores aut, inventore mollitia ipsum temporibus repellat laboriosam maxime, fugiat quod odio debitis eveniet est.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus corporis, 
+                aliquam placeat aliquid quisquam maiores aut, inventore mollitia ipsum temporibus repellat laboriosam maxime, fugiat quod odio debitis eveniet est.</p>
+        </div>
+        <div id="stationery" class="item">
+            <h3>Stationary</h3>
+            <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus corporis, 
+                aliquam placeat aliquid quisquam maiores aut, inventore mollitia ipsum temporibus repellat laboriosam maxime, fugiat quod odio debitis eveniet est.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- id="fruitpara" class="para"
+id="computerpara" class="para"
+id="stationerypara" class="para" -->
